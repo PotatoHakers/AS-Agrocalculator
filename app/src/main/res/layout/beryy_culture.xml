@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--region Яблоня-->
+    <!--region Клубника-->
     <ImageView
-        android:id="@+id/imageViewApple"
+        android:id="@+id/imageViewStrawberry"
         android:layout_width="328px"
         android:layout_height="284px"
         android:layout_row="0"
@@ -22,21 +22,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewApple"
+        android:id="@+id/textViewStrawberry"
         android:layout_width="328px"
         android:layout_height="50px"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Яблоня"
+        android:text="Клубника"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewApple" />
-    <!--endregion Яблоня-->
+        app:layout_constraintTop_toBottomOf="@+id/imageViewStrawberry" />
+    <!--endregion Клубника-->
 
-    <!--region Груша-->
+    <!--region Голубика-->
 
     <ImageView
-        android:id="@+id/imageViewPear"
+        android:id="@+id/imageViewBlueberry"
         android:layout_width="328px"
         android:layout_height="284px"
         android:layout_row="0"
@@ -51,21 +51,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewPear"
+        android:id="@+id/textViewBlueberry"
         android:layout_width="328px"
         android:layout_height="50px"
         android:layout_marginStart="160dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Груша"
+        android:text="Голубика"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewPear" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBlueberry" />
 
-    <!--endregion Груша-->
+    <!--endregion Голубика-->
 
-    <!--region Черешня-->
+    <!--region Смородина-->
     <ImageView
-        android:id="@+id/imageViewСherries"
+        android:id="@+id/imageViewСurrant"
         android:layout_width="328px"
         android:layout_height="284px"
         android:layout_row="0"
@@ -80,22 +80,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewСherries"
+        android:id="@+id/textViewСurrant"
         android:layout_width="328px"
         android:layout_height="50px"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Черешня"
+        android:text="Смородина"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewСherries" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewСurrant" />
 
-    <!--endregion Черешня-->
+    <!--endregion Смородина-->
 
-    <!--region Персик-->
+    <!--region Жимолость-->
 
     <ImageView
-        android:id="@+id/imageViewPeach"
+        android:id="@+id/imageViewHoneysuckle"
         android:layout_width="328px"
         android:layout_height="284px"
         android:layout_row="0"
@@ -110,22 +110,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewPeach"
+        android:id="@+id/textViewHoneysuckle"
         android:layout_width="328px"
         android:layout_height="50px"
         android:layout_marginStart="160dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Персик"
+        android:text="Жимолость"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewPeach" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHoneysuckle" />
 
-    <!--endregion Персик-->
+    <!--endregion Жимолость-->
 
-    <!--region Виноград-->
+    <!--region Малина-->
 
     <ImageView
-        android:id="@+id/imageViewGrape"
+        android:id="@+id/imageViewRaspberries"
         android:layout_width="328px"
         android:layout_height="284px"
         android:layout_row="0"
@@ -140,20 +140,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewGrape"
+        android:id="@+id/textViewRaspberries"
         android:layout_width="328px"
         android:layout_height="50px"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Виноград"
+        android:text="Малина"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewGrape" />
-    <!--endregion Виноград-->
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRaspberries" />
+    <!--endregion Малина-->
 
-    <!--region Мандарин-->
+    <!--region Крыжовник-->
     <ImageView
-        android:id="@+id/imageViewMandarin"
+        android:id="@+id/imageViewGooseberry"
         android:layout_width="328px"
         android:layout_height="284px"
         android:layout_row="0"
@@ -168,15 +168,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewMandarin"
+        android:id="@+id/textViewGooseberry"
         android:layout_width="328px"
         android:layout_height="50px"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Мандарин"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewMandarin"
+        android:text="Крыжовник"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewGooseberry"
         tools:layout_editor_absoluteX="160dp"
         tools:ignore="MissingConstraints" />
 
-    <!--endregion Мандарин-->
+    <!--endregion Крыжовник-->
 </androidx.constraintlayout.widget.ConstraintLayout>
