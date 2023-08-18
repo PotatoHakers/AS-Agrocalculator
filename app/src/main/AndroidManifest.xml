@@ -28,6 +28,35 @@
         <activity android:name=".CerealsCulture">
 
         </activity>
+
+    <activity android:name=".OilseedsCulture">
+
+    </activity>
+
+<activity android:name=".FodderCulture">
+
+</activity>
+
+        <activity android:name=".TechnicalCulture">
+
+        </activity>
+
+        <activity android:name=".VegetablesCulture">
+
+        </activity>
+
+        <activity android:name=".GourdsCulture">
+
+        </activity>
+
+        <activity android:name=".FruitCulture">
+
+        </activity>
+
+        <activity android:name=".BerryCulture">
+
+        </activity>
+
     </application>
 
 </manifest>

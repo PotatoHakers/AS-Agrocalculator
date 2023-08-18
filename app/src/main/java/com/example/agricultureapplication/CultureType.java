@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class CultureType extends AppCompatActivity {
 
+    String[] cultureList = new String[] {"Зерновые","Масличные","Кормовые", "Технические", "Овощи", "Бахчевые", "Плодовые", "Ягодные"};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +32,7 @@ public class CultureType extends AppCompatActivity {
                 // Запуск новой активити
                 startActivity(intent );
 
-                Toast.makeText(CultureType.this, "you clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CultureType.this, cultureList[0], Toast.LENGTH_SHORT).show();
             }
         });
     //endregion Зерновые
@@ -42,11 +44,11 @@ public class CultureType extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Создание намерения для запуска новой активити
-                Intent intent = new Intent(CultureType.this, CerealsCulture.class);
+                Intent intent = new Intent(CultureType.this, OilseedsCulture.class);
                 // Запуск новой активити
                 startActivity(intent );
 
-                Toast.makeText(CultureType.this, "you clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CultureType.this, cultureList[1], Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -60,11 +62,11 @@ public class CultureType extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Создание намерения для запуска новой активити
-                Intent intent = new Intent(CultureType.this, CerealsCulture.class);
+                Intent intent = new Intent(CultureType.this, FodderCulture.class);
                 // Запуск новой активити
                 startActivity(intent );
 
-                Toast.makeText(CultureType.this, "you clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CultureType.this, cultureList[2], Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -78,11 +80,11 @@ public class CultureType extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Создание намерения для запуска новой активити
-                Intent intent = new Intent(CultureType.this, CerealsCulture.class);
+                Intent intent = new Intent(CultureType.this, TechnicalCulture.class);
                 // Запуск новой активити
                 startActivity(intent );
 
-                Toast.makeText(CultureType.this, "you clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CultureType.this, cultureList[3], Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -96,11 +98,11 @@ public class CultureType extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Создание намерения для запуска новой активити
-                Intent intent = new Intent(CultureType.this, CerealsCulture.class);
+                Intent intent = new Intent(CultureType.this, VegetablesCulture.class);
                 // Запуск новой активити
                 startActivity(intent );
 
-                Toast.makeText(CultureType.this, "you clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CultureType.this, cultureList[4], Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -114,11 +116,11 @@ public class CultureType extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Создание намерения для запуска новой активити
-                Intent intent = new Intent(CultureType.this, CerealsCulture.class);
+                Intent intent = new Intent(CultureType.this, GourdsCulture.class);
                 // Запуск новой активити
                 startActivity(intent );
 
-                Toast.makeText(CultureType.this, "you clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CultureType.this, cultureList[5], Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -132,11 +134,11 @@ public class CultureType extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Создание намерения для запуска новой активити
-                Intent intent = new Intent(CultureType.this, CerealsCulture.class);
+                Intent intent = new Intent(CultureType.this, FruitCulture.class);
                 // Запуск новой активити
                 startActivity(intent );
 
-                Toast.makeText(CultureType.this, "you clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CultureType.this, cultureList[6], Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -150,18 +152,15 @@ public class CultureType extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Создание намерения для запуска новой активити
-                Intent intent = new Intent(CultureType.this, CerealsCulture.class);
+                Intent intent = new Intent(CultureType.this, BerryCulture.class);
                 // Запуск новой активити
                 startActivity(intent );
 
-                Toast.makeText(CultureType.this, "you clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CultureType.this, cultureList[7], Toast.LENGTH_SHORT).show();
             }
         });
 
         //endregion Ягодные
-
-
-
 
     }
 }
