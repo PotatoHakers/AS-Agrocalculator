@@ -21,10 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--endregion Подсолнечник-->
-
-    <!--region Рапс озимый-->
-
     <TextView
         android:id="@+id/textViewSunflower"
         android:layout_width="328px"
@@ -32,9 +28,12 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Картинка 1"
+        android:text="Подсолнечник"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewSunflower" />
+    <!--endregion Подсолнечник-->
+
+    <!--region Рапс озимый-->
 
     <ImageView
         android:id="@+id/imageViewWinterRapeseed"
@@ -51,10 +50,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--endregion Рапс озимый-->
-
-    <!--region Рапс яровой-->
-
     <TextView
         android:id="@+id/textViewWinterRapeseed"
         android:layout_width="328px"
@@ -62,14 +57,13 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Картинка 2"
+        android:text="Рапс озимый"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewWinterRapeseed" />
 
-    <!--endregion Рапс яровой-->
+    <!--endregion Рапс озимый-->
 
-    <!--region Соя-->
-
+    <!--region Рапс яровой-->
     <ImageView
         android:id="@+id/imageViewSpringRapeseed"
         android:layout_width="328px"
@@ -84,6 +78,21 @@
         android:src="@drawable/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSpringRapeseed"
+        android:layout_width="328px"
+        android:layout_height="50px"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Рапс яровой"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSpringRapeseed" />
+
+    <!--endregion Рапс яровой-->
+
+    <!--region Соя-->
 
     <ImageView
         android:id="@+id/imageViewSoy"
@@ -100,10 +109,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--endregion Соя-->
-
-    <!--region Лен Масличный-->
-
     <TextView
         android:id="@+id/textViewSoy"
         android:layout_width="328px"
@@ -111,20 +116,13 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Картинка 4"
+        android:text="Соя"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewSoy" />
 
-    <TextView
-        android:id="@+id/textViewSpringRapeseed"
-        android:layout_width="328px"
-        android:layout_height="50px"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:text="Картинка 3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewSpringRapeseed" />
+    <!--endregion Соя-->
+
+    <!--region Лен Масличный-->
 
     <ImageView
         android:id="@+id/imageViewOilseedFlax"
@@ -148,7 +146,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Картинка 5"
+        android:text="Лен Масличный"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewOilseedFlax" />
     <!--endregion Лен Масличный-->
