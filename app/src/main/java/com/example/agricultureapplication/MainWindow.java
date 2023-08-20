@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainWindow extends AppCompatActivity {
 
 
-     private TextView regionTextView;
+     private TextView regionEditText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,11 +40,11 @@ public class MainWindow extends AppCompatActivity {
             }
         });
 
-            regionTextView = findViewById(R.id.regionTextView);
+            regionEditText = findViewById(R.id.regionEditText);
 
             String selectedRegion = DataHolder.getInstance().getSelectedRegion();
             if (selectedRegion != null) {
-                regionTextView.setText(selectedRegion);
+                regionEditText.setText(selectedRegion);
             }
         }
     }
