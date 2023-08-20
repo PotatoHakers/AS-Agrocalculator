@@ -21,11 +21,11 @@ public class CerealsCulture extends AppCompatActivity {
         };
 
         String[] captions = {
-                "Caption 1", "Caption 2", "Caption 3",
-                "Caption 1", "Caption 2", "Caption 3",
-                "Caption 1", "Caption 2", "Caption 3",
-                "Caption 1", "Caption 2", "Caption 3",
-                "Caption 1", "Caption 2", "Caption 3",
+                "Пшеница озимая", "Пшеница яровая", "Рожь озимая",
+                "Овес", "Ячмень озимый", "Ячмень яровой",
+                "Гречиха", "Кукуруза на зерно", "Тритикале",
+                "Согро", "Просо", "Рис",
+                "Горох", "Чечевица", "Фасоль",
 
                 // Здесь перечислите подписи для каждой картинки
         };
