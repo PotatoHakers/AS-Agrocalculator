@@ -30,7 +30,7 @@ public class CerealsCulture extends AppCompatActivity {
                 // Здесь перечислите подписи для каждой картинки
         };
 
-        GridView gridView = findViewById(R.id.gridView1);
+        GridView gridView = findViewById(R.id.gridViewCereals);
         ListItemCerealsCulture adapter = new ListItemCerealsCulture(this, imageIds, captions);
         gridView.setAdapter(adapter);
     }

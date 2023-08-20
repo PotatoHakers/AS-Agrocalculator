@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 public class ListItemCerealsCulture extends BaseAdapter {
 
-
         private Context context;
         private int[] imageIds;
         private String[] captions; // Массив подписей
