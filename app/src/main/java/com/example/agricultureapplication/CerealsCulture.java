@@ -13,21 +13,27 @@ public class CerealsCulture extends AppCompatActivity {
 
         int[] imageIds = {
                 R.drawable.black, R.drawable.black, R.drawable.black,
-
                 R.drawable.black, R.drawable.black, R.drawable.black,
-
                 R.drawable.black, R.drawable.black, R.drawable.black,
-
                 R.drawable.black, R.drawable.black, R.drawable.black,
-
                 R.drawable.black, R.drawable.black, R.drawable.black,
-
                 // Здесь перечислите остальные ресурсы для изображений
         };
 
-        GridView gridView = findViewById(R.id.gridView);
-        ListItemCerealsCulture adapter = new ListItemCerealsCulture(this, imageIds);
+        String[] captions = {
+                "Caption 1", "Caption 2", "Caption 3",
+                "Caption 1", "Caption 2", "Caption 3",
+                "Caption 1", "Caption 2", "Caption 3",
+                "Caption 1", "Caption 2", "Caption 3",
+                "Caption 1", "Caption 2", "Caption 3",
+
+                // Здесь перечислите подписи для каждой картинки
+        };
+
+        GridView gridView = findViewById(R.id.gridView1);
+        ListItemCerealsCulture adapter = new ListItemCerealsCulture(this, imageIds, captions);
         gridView.setAdapter(adapter);
     }
 }
+
 
