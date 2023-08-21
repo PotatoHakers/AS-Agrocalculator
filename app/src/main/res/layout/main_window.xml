@@ -34,13 +34,13 @@
             android:id="@+id/textViewRegion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewRegion" />
+            android:text="Регион" />
 
         <Button
             android:id="@+id/buttonChooseRegion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ButtonChooseRegion" />
+            android:text="Выбрать" />
 
         <EditText
             android:id="@+id/regionEditText"
@@ -54,13 +54,13 @@
             android:id="@+id/textViewSquare"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewSquare" />
+            android:text="Площадь" />
 
         <EditText
             android:id="@+id/editTextSquare"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Square"
+            android:hint="Площадь, га"
             android:minHeight="48dp" />
 
         <!--Культура-->
@@ -99,13 +99,13 @@
             android:id="@+id/textViewSownCulture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewSownCulture 123" />
+            android:text="Засеваемая" />
 
         <Button
             android:id="@+id/buttonChooseSownCulture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ButtonChooseSownCulture" />
+            android:text="Выбрать" />
 
         <!--Предыдущая-->
 
@@ -113,13 +113,13 @@
             android:id="@+id/textViewPreviousCulture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewPreviousCulture" />
+            android:text="Предыдущая" />
 
         <Button
             android:id="@+id/buttonChoosePreviousCulture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ButtonChoosePreviousCulture" />
+            android:text="Выбрать" />
 
         <!--Планируемый урожай-->
 
@@ -127,13 +127,13 @@
             android:id="@+id/textViewPlannedHarvest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewPlannedHarrvest" />
+            android:text="Планируемый урожай" />
 
         <EditText
             android:id="@+id/editTextPlannedHarvest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Square"
+            android:hint="тонн с га"
             android:minHeight="48dp" />
 
         <!--Почва-->
@@ -165,13 +165,13 @@
             android:id="@+id/textViewSoilDensity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewSoil" />
+            android:text="Плотность почвы" />
 
         <EditText
             android:id="@+id/editTextSoilDensity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Soil"
+            android:hint="г/см^3"
             android:minHeight="48dp" />
 
         <!--Механический состав почвы-->
@@ -180,13 +180,13 @@
             android:id="@+id/textViewMehanicalCompositionSoil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewSoil" />
+            android:text="Механический состав почвы" />
 
         <Button
             android:id="@+id/buttonChooseMehanicalCompositionSoil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ButtonChooseSoil" />
+            android:text="Выбрать" />
 
         <!--Толщина пахотного слоя-->
 
@@ -194,13 +194,13 @@
             android:id="@+id/textViewTopsoilThickness"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewSoil" />
+            android:text="Толщина пахотного слоя" />
 
         <EditText
             android:id="@+id/editTextTopsoilThickness"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Soil"
+            android:hint="см"
             android:minHeight="48dp" />
 
         <!--Содержание гумуса-->
@@ -209,13 +209,13 @@
             android:id="@+id/textViewHumusContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewSoil" />
+            android:text="Содержание гумуса" />
 
         <EditText
             android:id="@+id/editTextHumusContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Soil"
+            android:hint="%"
             android:minHeight="48dp" />
 
         <!--Степень засоренности сорняками-->
@@ -224,13 +224,13 @@
             android:id="@+id/textViewDegreeInfestation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewSoil" />
+            android:text="Степень засорённости сорняками" />
 
         <Button
             android:id="@+id/buttonChooseDegreeInfestation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ButtonChooseSoil" />
+            android:text="Выбрать" />
 
         <!--Кислотность почвы-->
 
@@ -238,13 +238,13 @@
             android:id="@+id/textViewSoilAcidity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextViewSoil" />
+            android:text="Кислотность почвы" />
 
         <EditText
             android:id="@+id/editTextSoilAcidity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Soil"
+            android:hint="pH"
             android:minHeight="48dp" />
 
         <!--Химический состав-->
@@ -282,6 +282,7 @@
             android:id="@+id/editTextContentP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание K-->
@@ -296,6 +297,7 @@
             android:id="@+id/editTextContentK"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание N-->
@@ -310,6 +312,7 @@
             android:id="@+id/editTextContentN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание KCl-->
@@ -318,12 +321,14 @@
             android:id="@+id/TextViewContentKCl"
             android:layout_width="160dp"
             android:layout_height="69dp"
+            android:hint="мг/кг"
             android:text="Содержание KCl" />
 
         <EditText
             android:id="@+id/editTextContentKCl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание Ca-->
@@ -338,6 +343,7 @@
             android:id="@+id/editTextContentCa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание Mo-->
@@ -352,6 +358,7 @@
             android:id="@+id/editTextContentMo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание B-->
@@ -366,6 +373,7 @@
             android:id="@+id/editTextContentB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание Cu-->
@@ -380,6 +388,7 @@
             android:id="@+id/editTextContentCu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание Zn-->
@@ -394,6 +403,7 @@
             android:id="@+id/editTextContentZn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание Mn-->
@@ -408,6 +418,7 @@
             android:id="@+id/editTextContentMn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание Fe-->
@@ -422,6 +433,7 @@
             android:id="@+id/editTextContentFe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание I-->
@@ -436,6 +448,7 @@
             android:id="@+id/editTextContentI"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание Co(Кобальт)-->
@@ -450,6 +463,7 @@
             android:id="@+id/editTextContentCo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
         <!--Содержание Mg-->
@@ -464,6 +478,7 @@
             android:id="@+id/editTextContentMg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="" />
 
 
@@ -477,9 +492,8 @@
             android:id="@+id/buttonCalculate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="мг/кг"
             android:text="Рассчитать" />
-
-
 
     </LinearLayout>
 </ScrollView>
