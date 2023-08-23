@@ -31,24 +31,16 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textViewRegion"
+            android:id="@+id/textRegionS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Регион" />
 
-        <Button
-            android:id="@+id/buttonChooseRegion"
+        <Spinner
+            android:id="@+id/regionSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Выбрать" />
-
-        <EditText
-            android:id="@+id/regionEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:focusable="false">
-        </EditText>
+            android:spinnerMode="dropdown" />
 
         <TextView
             android:id="@+id/textViewSquare"

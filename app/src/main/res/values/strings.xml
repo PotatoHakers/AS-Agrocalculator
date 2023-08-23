@@ -3,6 +3,7 @@
     <string name="Button">Кнопка</string>
 
         <string-array name="belarus_regions">
+            <item>Выберите...</item>
             <item>Брестская область</item>
             <item>Витебская область</item>
             <item>Гомельская область</item>
