@@ -53,7 +53,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Площадь, га"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:focusableInTouchMode="false"/>
 
         <!--Культура-->
 
@@ -126,7 +127,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="тонн с га"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:focusableInTouchMode="false"/>
 
         <!--Почва-->
 
@@ -164,7 +166,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="г/см^3"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:focusableInTouchMode="false"/>
 
         <!--Механический состав почвы-->
 
@@ -174,8 +177,8 @@
             android:layout_height="wrap_content"
             android:text="Механический состав почвы" />
 
-        <Button
-            android:id="@+id/buttonChooseMehanicalCompositionSoil"
+        <Spinner
+            android:id="@+id/spinnerMehanicalCompositionSoil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Выбрать" />
@@ -193,7 +196,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="см"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:focusableInTouchMode="false"/>
 
         <!--Содержание гумуса-->
 
@@ -208,7 +212,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="%"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:focusableInTouchMode="false"/>
 
         <!--Степень засоренности сорняками-->
 
@@ -218,8 +223,8 @@
             android:layout_height="wrap_content"
             android:text="Степень засорённости сорняками" />
 
-        <Button
-            android:id="@+id/buttonChooseDegreeInfestation"
+        <Spinner
+            android:id="@+id/spinnerDegreeInfestation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Выбрать" />
@@ -237,7 +242,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="pH"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:focusableInTouchMode="false"/>
 
         <!--Химический состав-->
 

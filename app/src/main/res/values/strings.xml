@@ -14,4 +14,20 @@
 
         <string-array name="empty_array"></string-array>
 
+    <string-array name="mechanical_composition_soil">
+        <item>Выберите...</item>
+        <item>Супесчанные</item>
+        <item>Тяж. суглинок</item>
+        <item>Сред. суглинок</item>
+        <item>Легкосуглинистый</item>
+        <item>Глинистый</item>
+    </string-array>
+
+    <string-array name="degree_infestation">
+        <item>Выберите...</item>
+        <item>Слабая</item>
+        <item>Средняя</item>
+        <item>Сильная</item>
+    </string-array>
+
 </resources>
